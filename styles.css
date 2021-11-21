@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(245, 220, 224);
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px black;
+  transition: box-shadow 500ms, border-radius 1500ms;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 15px black;
+  border-radius: 15px;
+}
